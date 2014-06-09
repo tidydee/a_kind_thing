@@ -5,18 +5,28 @@
     <ul id="act-list">
       <li ng-repeat="act in acts">
         <div class="view">
-          <label>{{act.title}}</label>
+          <em>{{act.title}}</em>
+          <p>{{act.description}}</p>
         </div>
       </li>
     </ul>
     <br><br>
 
-    <form id="todo-form" ng-submit="save(activeTodo)">
+    <form id="act-form" ng-submit="save(newAct)">
+      <label>Title</label>
       <input 
-      id="new-todo" 
+      id="new-act" 
       placeholder="Act of Kindness?" 
-      ng-model="activeTodo.title" 
+      ng-model="newAct.title" 
       autofocus>
+
+      <label>Description</label>
+      <input  
+      placeholder="Decription" 
+      ng-model="newAct.description" 
+      autofocus>
+      <button>Save</button>
+
     </form>
   </header>
 
