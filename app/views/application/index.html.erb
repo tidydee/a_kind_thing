@@ -1,7 +1,7 @@
 <section id="todoapp" ng-controller="MainCtrl">
   <ng-view></ng-view>
   <header id="header">
-    <h1>Acts of Kindness</h1>
+    <h1>Watering Kindness</h1>
     <ul id="act-list">
       <li ng-repeat="act in acts">
         <div class="view">
@@ -12,28 +12,12 @@
     </ul>
     <br><br>
 
-    <form id="act-form" ng-submit="save(newAct)">
-      <label>Title</label>
-      <input 
-      id="new-act" 
-      placeholder="Act of Kindness?" 
-      ng-model="newAct.title" 
-      autofocus>
-
-      <label>Description</label>
-      <input  
-      placeholder="Decription" 
-      ng-model="newAct.description" 
-      autofocus>
-      <button>Save</button>
-
-    </form>
   </header>
 
   <!-- <section id="main" ng-show="todos.length" ng-cloak>
-    <input 
-    id="toggle-all" 
-    type="checkbox" 
+    <input
+    id="toggle-all"
+    type="checkbox"
     ng-model="checked"
     ng-click="checkAll(checked)">
     <label for="toggle-all">Mark all as complete</label>
@@ -41,9 +25,9 @@
     <ul id="todo-list">
       <li ng-repeat="todo in todos | filter:statusFilter track by $index" ng-class="{completed: todo.completed, editing: todo == editedTodo}">
         <div class="view">
-          <input 
-          class="toggle" 
-          type="checkbox" 
+          <input
+          class="toggle"
+          type="checkbox"
           ng-model="todo.completed"
           ng-click="checkAndSave(todo)">
           <label ng-dblclick="edit(todo)">{{todo.title}}</label>
