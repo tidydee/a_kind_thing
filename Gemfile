@@ -29,6 +29,11 @@ gem 'spring',        group: :development
 gem 'bower-rails'
 gem 'bootstrap-sass', '~> 3.1.1'
 
+group :development do
+  gem "rack-livereload"
+  gem 'guard-livereload', require: false
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
