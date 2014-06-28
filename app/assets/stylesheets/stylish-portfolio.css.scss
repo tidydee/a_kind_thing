@@ -111,7 +111,7 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  background: image-url('water-the-grass.jpg') no-repeat center center fixed;
+  background: image-url('grass_dirt.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -223,16 +223,16 @@ i.scroll:hover {
 
 @media (max-width: 768px) {
 
-  .header {
-  background: image-url('bg.jpg') no-repeat center center scroll;
-  }
+  /* .header { */
+  /* background: image-url('grass_dirt.jpg') no-repeat center center scroll; */
+  /* } */
 
-  .callout {
-  background: image-url('callout.jpg') no-repeat center center scroll;
-  }
+  /* .callout { */
+  /* background: image-url('callout.jpg') no-repeat center center scroll; */
+  /* } */
 
-  .map {
-  height: 75%;
-  }
+  /* .map { */
+  /* height: 75%; */
+  /* } */
 
 }

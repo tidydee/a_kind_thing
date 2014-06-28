@@ -1,0 +1,94 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require bootstrap_settings
+ *= require font-awesome/font-awesome
+ *- require stylish-portfolio
+ *= require_self
+ */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+/*  */
+/* .vert-text { */
+/*   display: table-cell; */
+/*   vertical-align: middle; */
+/*   text-align: center; */
+/* } */
+/*  */
+/* .vert-text h1 { */
+/*   padding: 0; */
+/*   margin: 0; */
+/*   font-size: 4.5em; */
+/*   font-weight: 700; */
+/* } */
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: image-url('grass_dirt.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+}
+
+.area {
+  background: transparent;
+  height: 33%;
+  width: 100%;
+  overflow: scroll;
+}
+
+.act-list {
+
+  ul {
+    list-style: none;
+
+    li {
+      float: left;
+      padding: 4px 20px;
+    }
+  }
+}
+
+.callout {
+  color: white;
+  text-align: center;
+  position: absolute;
+  h1 {
+    margin-top: 100px;
+    font-size: 64px;
+  }
+}
+
+
+.act-form {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  text-align: center;
+  h1 {
+  }
+  form {
+    color: #333;
+  }
+  /* form { */
+  /*   width: 30%; */
+  /*   margin: 0 auto; */
+  /* } */
+}
+

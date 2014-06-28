@@ -2,9 +2,9 @@ angular
   .module('app', ['ngRoute', 'ngResource'])
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/', {
-      controller: 'HomeCtrl'
+      controller: 'AppCtrl'
     }).when('/:status',{
-      controller: 'HomeCtrl' 
+      controller: 'AppCtrl'
     }).otherwise({
       redirectTo: '/'
     });

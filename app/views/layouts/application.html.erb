@@ -13,57 +13,42 @@
 <body ng-app="app">
 
     <!-- Side Menu -->
-    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand"><a href="http://startbootstrap.com">Start Bootstrap</a>
-            </li>
-            <li><a href="#top">Home</a>
-            </li>
-            <li><a href="#about">About</a>
-            </li>
-            <li><a href="#services">Services</a>
-            </li>
-            <li><a href="#portfolio">Portfolio</a>
-            </li>
-            <li><a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </div>
+    <!-- <a id="menu&#45;toggle" href="#" class="btn btn&#45;primary btn&#45;lg toggle"><i class="fa fa&#45;bars"></i></a> -->
+    <!-- <div id="sidebar&#45;wrapper"> -->
+    <!--     <ul class="sidebar&#45;nav"> -->
+    <!--         <a id="menu&#45;close" href="#" class="btn btn&#45;default btn&#45;lg pull&#45;right toggle"><i class="fa fa&#45;times"></i></a> -->
+    <!--         <li class="sidebar&#45;brand"><a href="http://startbootstrap.com">Start Bootstrap</a> -->
+    <!--         </li> -->
+    <!--         <li><a href="#top">Home</a> -->
+    <!--         </li> -->
+    <!--         <li><a href="#about">About</a> -->
+    <!--         </li> -->
+    <!--         <li><a href="#services">Services</a> -->
+    <!--         </li> -->
+    <!--         <li><a href="#portfolio">Portfolio</a> -->
+    <!--         </li> -->
+    <!--         <li><a href="#contact">Contact</a> -->
+    <!--         </li> -->
+    <!--     </ul> -->
+    <!-- </div> -->
     <!-- /Side Menu -->
 
     <!-- Full Page Image Header Area -->
-    <div id="top" class="header">
-        <div class="vert-text">
-            <%= yield %>
+    <div class="wrapper" ng-controller="AppCtrl">
 
-        </div>
+      <%= yield %>
     </div>
     <!-- /Full Page Image Header Area -->
 
     <!-- Intro -->
-    <div id="about" class="intro">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                  <h1>Share a Kind Act</h1>
-                  <p class="lead">
-                  Please share an act of kindness you have done or have witnessed.
-                  <form id="act-form" ng-submit="save(newAct)">
-                    <input
-                    id="new-act"
-                    placeholder="Act of Kindness"
-                    ng-model="newAct.title"
-                    autofocus>
-
-                    <button>Save</button>
-
-                  </form>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- <div id="about" class="intro"> -->
+    <!--     <div class="container"> -->
+    <!--         <div class="row"> -->
+    <!--             <div class="col&#45;md&#45;6 col&#45;md&#45;offset&#45;3 text&#45;center"> -->
+    <!--             </div> -->
+    <!--         </div> -->
+    <!--     </div> -->
+    <!-- </div> -->
     <!-- /Intro -->
 
     <!-- Services -->
@@ -110,13 +95,13 @@
     <!-- /Services -->
 
     <!-- Callout -->
-    <div class="callout">
-        <div class="vert-text">
-          <h1>Plant Your Seeds<br />
-            Watch Them Grow
-          </h1>
-        </div>
-    </div>
+    <!-- <div class="callout"> -->
+    <!--     <div class="vert&#45;text"> -->
+    <!--       <h1>Plant Your Seeds<br /> -->
+    <!--         Watch Them Grow -->
+    <!--       </h1> -->
+    <!--     </div> -->
+    <!-- </div> -->
     <!-- /Callout -->
 
     <!-- Portfolio -->
@@ -194,27 +179,27 @@
     <!-- /Map -->
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <ul class="list-inline">
-                        <li><i class="fa fa-facebook fa-3x"></i>
-                        </li>
-                        <li><i class="fa fa-twitter fa-3x"></i>
-                        </li>
-                        <li><i class="fa fa-dribbble fa-3x"></i>
-                        </li>
-                    </ul>
-                    <div class="top-scroll">
-                        <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
-                    </div>
-                    <hr>
-                    <p>A Kindess Project</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <!-- <footer> -->
+    <!--     <div class="container"> -->
+    <!--         <div class="row"> -->
+    <!--             <div class="col&#45;md&#45;6 col&#45;md&#45;offset&#45;3 text&#45;center"> -->
+    <!--                 <ul class="list&#45;inline"> -->
+    <!--                     <li><i class="fa fa&#45;facebook fa&#45;3x"></i> -->
+    <!--                     </li> -->
+    <!--                     <li><i class="fa fa&#45;twitter fa&#45;3x"></i> -->
+    <!--                     </li> -->
+    <!--                     <li><i class="fa fa&#45;dribbble fa&#45;3x"></i> -->
+    <!--                     </li> -->
+    <!--                 </ul> -->
+    <!--                 <div class="top&#45;scroll"> -->
+    <!--                     <a href="#top"><i class="fa fa&#45;circle&#45;arrow&#45;up scroll fa&#45;4x"></i></a> -->
+    <!--                 </div> -->
+    <!--                 <hr> -->
+    <!--                 <p>A Kindess Project</p> -->
+    <!--             </div> -->
+    <!--         </div> -->
+    <!--     </div> -->
+    <!-- </footer> -->
     <!-- /Footer -->
 
     <!-- JavaScript -->
